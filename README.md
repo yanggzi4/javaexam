@@ -34,7 +34,7 @@ git clone _https://github.com/ExpertAutomationTeam/eat-java-coding-exam.git_
 
 git remote rm origin
 
-git remote add origin _<your own github url>_
+git remote add origin <_your own github url_>
 
 git init
 
