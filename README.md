@@ -26,7 +26,7 @@ _then follow the git commands_
 
 **to clone the project:**
 
-git clone _https://github.com/ExpertAutomationTeam/eat-java-coding-project.git_
+git clone _https://github.com/ExpertAutomationTeam/eat-java-coding-exam.git_
 
 -----------------------------------------------------------------
 
