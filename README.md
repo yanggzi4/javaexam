@@ -36,8 +36,6 @@ git remote rm origin
 
 git remote add origin <_your own github url_>
 
-git init
-
 git add .
 
 git commit -m "name of the topic"
