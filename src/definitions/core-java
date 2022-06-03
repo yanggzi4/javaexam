@@ -1,47 +1,61 @@
 Please answer the below core-java Questions:
 
 Q. What is programing language?
-A.
+A.Programing language is type of a computer language which include set of commands,instructions and other syntax
+used to create a software program.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What are the jdk components ? define each component?
-A.
+A. 1.Javac-compiler which converts java source code to java bytecode
+   2.JRE- executes java programs
+   3.Debugger- helps in debugging
+   4.javadoc-document generator
+   5.jar- archives for java
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is an IDE?
-A.
+A.an IDE is an integrated development environment for programming in java.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What are the IDEs available in the market to support java?
-A.
+A.1.Eclipse
+  2. NetBeans
+  3. Intellij Idea
+  4. BlueJ
+  5.Oracle Jdeveloper
+  6.MyEclipse
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Explain the entire java life cycle.
-A.
+A.Java life cycle starts with java file that can be understood by humans converted to bytecode with the help of compiler
+ This phase is called compile time phase. then, byte code is converted to native code which is understood by machine by
+ a compiler called Just in time(JIT) compiler.This phase is called the run time phase.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is class?
-A.
+A.Class is a template/blueprint for creating an object.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is object?
-A.
+A.Object is an instance of a class which inherits all the class properties.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the entry point of an application?
-A.
+A.Main method is the entry point or starting point of an application.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Why main method is static?
-A.
+A.main method is static so that compiler can call it without creating an object. it is done to keep it simple.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Which class is the superclass of all classes in java?
-A.
+A.The class named object is the superclass of all classes in java.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is difference between path and classpath variables?
-A.
+A.path variable is a path tool that we use while working on any java program.it contains all the directories path
+  whereas classpath variable is a variable that provides link path to all classes that we require in  our application.
+   path is used by the operating system and class path is used by the java compiler.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between an Interface and Abstract class?
@@ -165,7 +179,7 @@ A.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is JIT stands for?
-A.
+A.JIT stands for just in time.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is Recursion?
