@@ -59,7 +59,12 @@ A.path variable is a path tool that we use while working on any java program.it 
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between an Interface and Abstract class?
-A.
+A.Interfaces are implicitly abstract and have no implementation(body) whereas abstract class can have concrete class.
+ Interface is implemented by using keyword "implements" while Abstract class can be extended by using "extend" keyword.
+ All variables in interfaces can only be static or final whereas Abstract class can have other access specifiers.
+ Methods in interface are by default public where as Abstract class can have non public methods too.
+ Interfaces can only extend other interfaces whereas Abstract class can extend other classes as well as implement
+ interfaces.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Can you make an Object from an Interface and Abstract class ? how do you use interface and abstract class?
