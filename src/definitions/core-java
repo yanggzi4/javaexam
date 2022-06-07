@@ -68,35 +68,49 @@ A.Interfaces are implicitly abstract and have no implementation(body) whereas ab
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Can you make an Object from an Interface and Abstract class ? how do you use interface and abstract class?
-A.
+A.No, we can not make an object from an interface and Abstract class.
+
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is Access Specifier?
-A.
+A.Access specifiers are also known as access modifiers. access specifiers are used to specify the scope of a variable,
+method, constructor or class.
 
-------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 Q. What is OOP ? Define each feature of java OOP.
-A.
-
+A.OOP stands for Object Oriented Programming.
+  Encapsulation- OOP concept of data hiding(variables)
+  Inheritance- Attributes and methods inheritance from one class to another (class)
+  Polymorphism- concept of method overloading and method overriding (method)
+  Abstraction- implementation hiding (roadmap)
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is Java Package and which package is imported by default?
-A.
+A.Java package is used to group related classes as in folder in a file directory.
+java.lang package is imported by default in java.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is API? Name list of API that you have used so far.
-A.
+A.API stands for application programming interface which is a predefined software tool in java which makes writing
+programs for programmers even easier.
+list of API, we have used so far
+java.util
+java.io.*
+java.util.scanner
+
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Does java support multiple inheritance?
-A.
+A.No java does not support multiple inheritance.
+
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is method overloading and when it happens?
-A.
-
+A.Method overloading is when a class has more than one method with same name but different parameters.
+  Method overloading happens when we want to increase the accessibility of the program. it is used basically when you
+  have to perform similar kind of operations on different data types.
 ------------------------------------------------------------------------------------------------------------------------
 Q. Explain exceptions in java and how to handle it?
-A.
+A.Exceptions in java is a problem that arises during the execution of the program.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is static keyword in java? How it has been used in variables, methods and classes?
@@ -132,31 +146,35 @@ A.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is JVM stand for?
-A.
+A.JVM stands for java virtual machine
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Is JVM platform independent?
-A.
+A.No, JVM platform is not independent it is rather platform dependent.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What version of java are you using?
-A.
+A.Java version is java 1.8.0_251.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is JAR stand for?
-A.
+A.JAR stands for Java archives.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between JDK and JVM?
-A.
+A.JVM is an abstract machine and does not have physical existence where as JDK provides an environment for developing
+ java application and executes the program. JVM is responsible for executing java bytecode. it is also known as the
+ interpreter where as JDK consist of JRE to execute the program.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between JVM and JRE?
-A.
+A.JRE provides an environment to only run java programs and implements JVM. JRE provides a platform to execute the java
+  bytecode whereas JVM is responsible for executing the java bytecode.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is compile time and run time?
-A.
+A.Compile time is the period from when the source code is converted to executable bytecode where as run time is the
+  period when the bytecode is converted to native code and the program is running.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between String, StringBuffer and StringBuilder?
