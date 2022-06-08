@@ -1,31 +1,45 @@
 Please answer the below Data Structure Questions:
 
 Q. why do we need data structure?
-A.
+A.Data structures helps in increasing the efficiency of the program or application since it organizes data in such a
+manner that it uses less memory and higher processing speed. Data structures provide the reusability of the data and
+can be used many times.
 
 ------------------------------------------------------------------------------------------------------------------------
 What are the various operations that can be performed on different Data Structures?
-A.
+A.various operations that can be performed on different data structures are as follows:
+*traversing- visit the element stored in a data structure.
+*searching- to find a particular element in a data structure
+*insertion- add an element in the given data structure
+*deletion- delete an element in the given data structure
+*create, selection, sort, update, merge etc.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. List out the areas in which data structures are applied extensively?
-A.
-
+A. Data structures are applied extensively in the field of compiler design, operating systems, data management systems,
+statistical analysis package, numerical analysis, graphics, artificial intelligence and Simulation.
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is an Array?
-A.
+A.An array is a data structure used to store multiple values in a single variable.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between the Array and ArrayList?
-A.
+A.Array is an object which contains elements of same data type whereas ArrayList is a class of collection framework.
+Arrays are static in nature whereas ArrayList is dynamic.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is LinkedList?
-A.
+A. LinkedList class is a collection which can contain many objects of the same type, just like ArrayList.LinkedList has
+same methods as ArrayList but they are built differently.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. How is an ArrayList different from Linked List?
-A.
+A.ArrayList class has a regular array inside it.when an element is added, it is placed into the array but if it doesn't
+ fit anymore then whole array is replaced with the new array list whereas LinkedList stores  it items in "containers",
+ the list has a link to the first container and each container has a link to the next container in the list so when
+ the new element is added it is stored in a new container and linked.
+ ArrayList works better when application demands storing the data and accessing it whereas LinkedList works better
+  when the application demands the manipulation of the stored date.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between the HashTable and HashMap?

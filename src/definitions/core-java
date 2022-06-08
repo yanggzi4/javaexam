@@ -96,6 +96,7 @@ list of API, we have used so far
 java.util
 java.io.*
 java.util.scanner
+java.time
 
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -111,38 +112,47 @@ A.Method overloading is when a class has more than one method with same name but
 ------------------------------------------------------------------------------------------------------------------------
 Q. Explain exceptions in java and how to handle it?
 A.Exceptions in java is a problem that arises during the execution of the program.
+  Exceptions can be handled using try and catch method.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is static keyword in java? How it has been used in variables, methods and classes?
-A.
+Static keyword is a non access modifier used for methods and attributes. a static variable is used in a class and not in
+an object.Static variables are initialized only once. Static keyword is used in method to make the method static.it
+belongs to the class and not to the object. static method can access only static variable.We can declare a class static
+only if it a nested class.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is final and how it has been used variables, methods and classes?
-A.
+A.final keyword is used to java to restrict the user. It can be used with variable to make it constant or its value can
+ not be changed.When you make a class final, we can not extend that class.if you make any method final, then you cannot
+ override it.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is final, finally and finalize?
-A.
+A.Final is a keyword and it is used as an access modifier. Finally is a block in java used for exception handling.
+ and Finalize is a method in java used for garbage collection.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is a constructor ?
-A.
+A.a constructor is a block of codes similar to the method. It is called when an instance of the class is created.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Can we have multiple constructors in a class?
-A.
+A.We can have multiple constructors in a class as long as the parameter list of the constructor is not same.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. If we don't have a constructor declared, what is called during the object creation?
-A.
+A.If we don't have a constructor declared, then default constructor is called in the class.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is "this" keyword in java ?
-A.
+A."This" keyword is a reference variable which refers current object of the method or constructor.Its main purpose is to
+remove confusion between class attributes and parameters that have a same name.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is "super" keyword in java? How to use it?
-A.
+A."Super" keyword refers to the superclass (parent) object.
+   it is used to call superclass methods and to access superclass constructor.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is JVM stand for?
@@ -178,27 +188,30 @@ A.Compile time is the period from when the source code is converted to executabl
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between String, StringBuffer and StringBuilder?
-A.
+A.object of a string is immutable whereas objects of string buffer and string builder are mutable. Stringbuffer and
+stringbuilder are similar but stringbuilder is faster and preferred over stringbuffer because of thread safety.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is Singleton class?
-A.
+A A Singleton class is a class that can have only one object (instance) at a time.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between while and do..while loop?
-A.
+A.While loop checks the conditions first and then executes the code whereas do while loop executes the code and then
+  checks the condition.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is Enum?
-A.
+A.Enum is special class that represents a group of constants like unchangeable variables.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is Iterator?
-A.
+A.Iterator is an object that can be used to loop through collections like arraylist.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Which one will take more memory, an int or Integer?
-A.
+A.An int is a primitive data type and takes about 4 bytes whereas Integer is an object and takes about 16 bytes.
+ thus, Integer takes more memory.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is JIT stands for?
@@ -206,4 +219,4 @@ A.JIT stands for just in time.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is Recursion?
-A.
+A.Recursion is a technique where a method(function) calls itself.
