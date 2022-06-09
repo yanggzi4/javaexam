@@ -43,20 +43,36 @@ A.ArrayList class has a regular array inside it.when an element is added, it is 
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between the HashTable and HashMap?
-A.
+A.Both HashTable and HashMap store key and value pair in a hash table. Hashmap is non synchronized, it is not thread-
+ safe and can't be shared between many threads without proper synchronization code whereas HashTable is synchronized,
+ thread safe and can be shared with many threads. HashMap allows null key and multiple null values whereas HashTable
+ doesn't allow any null key and null value.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model?
-A.
+A.RDBMS: Arrays
+  Network data model: Graph
+  Hierarchical Data Model: Tree
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. How HashMap works in java?
-A.
+A.HashMap in Java works on hashing principles. It is a data structure that allows us to store object and retrieve it
+ in constant time O(1) provided we know the key. In hashing, hash functions are used to link keys and values in HashMap.
+ Objects are stored by the calling put(key, value) method of HashMap and retrieved by calling the get(key) method.
+ When we call the put method, the hashcode() method of the key object is called so that the hash function of the map
+ can find a bucket location to store the value object, which is actually an index of the internal array, known as
+ the table. and when we want to retrieve the object, we call the get()method.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is ArrayIndexOutOfBoundsException in java? When it occurs?
-A.
+A.ArrayIndexOutOfBoundsException is thrown when an array is accessed with an illegal index. The index accessed may be
+  Negative or equal to the size of array or greater than the size of array.
+   ArrayIndexOutOfBoundsException occurs during the run time.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What are the different ways of copying an array into another array?
-A.
+A.Different ways of copying an array into another array are as follows:
+*Manually- copy elements one by one
+*Arrays.copyof() method
+*System.arraycopy() method
+*Object.clone() method
