@@ -1,6 +1,7 @@
 package problems.string;
-
+import java.util.*;
 public class DetermineLargestWord {
+
 
     /*
      *
@@ -12,6 +13,16 @@ public class DetermineLargestWord {
     public static void main(String[] args) {
 
         String str = "Human brain is a biological learning machine";
+          String [] word= str.split("");
+          String largestWord= "";
+        for(int i = 0; i < word.length; i++){
+            if(word[i].length() >= largestWord.length()){
+                largestWord = word[i];
+            }
+            System.out.print(largestWord);
+        }
+
+
 
         //write your code here
 

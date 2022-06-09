@@ -12,8 +12,24 @@ public class Pattern {
      */
 
     public static void main(String[] args) {
+        for(int i = 100; i >= 90; i--)
+        {
+            System.out.print(i+ ",");
+        }
 
+
+
+        int n = 70;
+
+        for (int i = 88; i >= n; i--) {
+            if (i % 2 == 0) {
+                System.out.print(i + ",");
+            }
+        }
         //write your code here
-
+        for(int i = 67; i >=40; i--)
+        {
+            System.out.print(i+ ",");
+        }
     }
 }
