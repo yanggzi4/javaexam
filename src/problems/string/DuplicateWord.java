@@ -15,12 +15,11 @@ public class DuplicateWord {
 
     public static void main(String[] args) {
 
-        String str = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language," +
-                " Java is also coffee";
+        String str = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language, Java is also coffee";
 
         //run your code here
 
 
 
 
-
+}
