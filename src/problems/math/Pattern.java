@@ -17,7 +17,7 @@ public class Pattern {
             System.out.print(i+ ",");
         }
 
-
+       System.out.println();
 
         int n = 70;
 
@@ -26,9 +26,10 @@ public class Pattern {
                 System.out.print(i + ",");
             }
         }
+        System.out.println();
+
         //write your code here
-        for(int i = 67; i >=40; i--)
-        {
+        for(int i = 67; i >=40; i--) {
             System.out.print(i+ ",");
         }
     }

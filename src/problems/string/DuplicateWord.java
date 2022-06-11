@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static java.lang.System.*;
+
 public class DuplicateWord {
 
     /*
@@ -16,31 +18,24 @@ public class DuplicateWord {
     public static void main(String[] args) {
 
         String str = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language, Java is also coffee";
-        int count;
-        String duplicates = " ";
-        String[] words = str.toLowerCase().trim().split(" ");
-        for (int i = 0; i < words.length; i++) {
-            count = 1;
-            for (int j = i + 1; j < words.length; j++) {
-                if (words[i].equals(words[j])) {
-                    count++;
-                }
+        String [] words = str.toLowerCase().trim().split(" ");
+        Map<String, Integer> duplicateString = new HashMap<>();
+        int count= 1;
+        for( String x: words){
+            if(duplicateString.containsKey(x)) {
+                duplicateString.put(x, duplicateString.get(x) + 1);
+            }else{
+                duplicateString.put(x,count);
+            }
+            }
+        System.out.println("Duplicate words in a string: ");
+        for(Map.Entry a: duplicateString.entrySet()){
+            int val= (Integer) a.getValue();
+            if(val>1){
+                System.out.println(a);
             }
         }
-        if (count > 1) {
-            int i;
-            if (duplicates.isEmpty()) {
-                duplicates += " " + words[i] + " : " + count;
-            } else if (!duplicates.matches("(.*) " + words[i] + " (.*)")) {
-                duplicates += " " + words[i] + " : " + count;
-            }
         }
-    }
-     System.out.println( duplicates);
-    
-
-
-        //run your code here
 
 
 

@@ -9,6 +9,10 @@ public class RunGame {
         ShuffleGame shuffleGame = new ShuffleGame();
 
         shuffleGame.play();
+        System.out.println("Welcome to the shuffle game");
+
+        System.out.println("Are you ready to play? Enter y for yes and n for no");
+         shuffleGame.
 
     }
 }

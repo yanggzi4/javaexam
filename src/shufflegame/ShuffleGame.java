@@ -31,7 +31,7 @@ public class ShuffleGame implements GameRoadMap{
      * @return playerGuess: userInput value
      */
     public int playerGuess() {
-        //implement here
+
         return 0;
     }
 
