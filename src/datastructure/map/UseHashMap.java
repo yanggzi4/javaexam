@@ -23,8 +23,18 @@ public class UseHashMap {
         map.put(5, "San Jose");
         map.put(6, "Seattle");
 
+        System.out.println("Size of map is:- " + map.size());
+
+        System.out.println(map);
+
+        boolean result = map.containsKey(3);
+        if( result) {
+            System.out.println("Denver");
+        }
+
         //write your code here
 
 
     }
 }
+

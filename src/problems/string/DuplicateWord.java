@@ -20,6 +20,5 @@ public class DuplicateWord {
         //run your code here
 
 
-
-
+    }
 }
