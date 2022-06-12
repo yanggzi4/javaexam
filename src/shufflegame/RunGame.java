@@ -12,7 +12,11 @@ public class RunGame {
         System.out.println("Welcome to the shuffle game");
 
         System.out.println("Are you ready to play? Enter y for yes and n for no");
-         shuffleGame.
+      shuffleGame.playerGuess();
+      shuffleGame.shuffleGame(int[]array);
+      shuffleGame.play();
+
+
 
     }
 }
