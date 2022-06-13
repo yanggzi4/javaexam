@@ -26,11 +26,11 @@ public class UseHashMap {
         System.out.println("Size of map is:- " + map.size());
 
         System.out.println(map);
-
-        boolean result = map.containsKey(3);
-        if( result) {
-            System.out.println("Denver");
+        for(Map.Entry<Integer,String> entry: map.entrySet()) {
+            System.out.println(entry.getValue());
         }
+
+
 
         //write your code here
 
