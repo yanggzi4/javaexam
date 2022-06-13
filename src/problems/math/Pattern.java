@@ -29,8 +29,13 @@ public class Pattern {
         System.out.println();
 
         //write your code here
-        for(int i = 67; i >=40; i--) {
+        for(int i = 67; i >=40; i=i-3) {
             System.out.print(i+ ",");
+            System.out.println();
+        }
+        for(int i = 36; i >=0; i=i-4) {
+            System.out.print(i+ ",");
+            System.out.println();
         }
     }
 }
