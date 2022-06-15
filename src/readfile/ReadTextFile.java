@@ -1,5 +1,5 @@
 package readfile;
-
+import java.io.*;
 public class ReadTextFile {
     /*
      *
@@ -17,8 +17,13 @@ public class ReadTextFile {
      *
      */
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
+     File file = new File(Users/mingmasherpa/Desktop/eat-java-coding-exam/src/readfile/file-data);
 
+        BufferedReader br = new BufferedReader(new FileReader(file));
+        String str;
+        while ((str = br.readLine()) != null)
+            System.out.println(str);
         //write your code here
 
     }
